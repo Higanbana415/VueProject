@@ -8,7 +8,7 @@
 <script>
 import TabBar from "common/tabBar/index.vue"
 // import Loading from "./lib/loading/index.js"
-// console.log(Loading().handlemount())
+// // console.log(Loading().handlemount())
 // import http from "utils/http.js"
 export default {
   name:"App",
@@ -17,7 +17,7 @@ export default {
   },
 //接口测试
 //   created(){
-//       http("get","/gateway?k=5293799").then((data)=>{
+//       http("get","/ajax/v6/user/address/opencities").then((data)=>{
 //       console.log(data)
 //     })
 // }

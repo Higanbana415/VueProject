@@ -6,5 +6,12 @@ export default {
         tabBar:false,
         auth:false
     },
+    children:[
+        {
+            path:"projectIntroduce",
+            component:()=>import("components/projectIntroduce"),
+            name:"projectIntroduce",
+        }
+    ],
     props:true
 }

@@ -13,6 +13,10 @@ module.exports = {
             "/gateway": {
                 target: "https://m.maizuo.com",
                 changeOrigin: true 
+            },
+            "/ajax": {
+                target: "http://i.waimai.meituan.com",
+                changeOrigin: true 
             }
         },    
     },
