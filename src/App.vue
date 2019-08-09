@@ -6,7 +6,9 @@
 </template>
 
 <script>
+import {MessageBox} from "./lib/messageBox/index.js"
 import TabBar from "common/tabBar/index.vue"
+console.log(MessageBox)
 // import Loading from "./lib/loading/index.js"
 // // console.log(Loading().handlemount())
 // import http from "utils/http.js"

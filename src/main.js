@@ -6,6 +6,8 @@ import "../public/common/css/reset.css"
 import "../public/common/iconfont/iconfont.css"
 import "./mock/movieNow/index"
 import "./common/components/index.js"
+import VueTouch from 'vue-touch'
+Vue.use(VueTouch, {name: 'v-touch'})
 Vue.config.productionTip = false
 new Vue({
   router,

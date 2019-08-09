@@ -35,7 +35,10 @@
             </router-link>
          </ul>
       </div>
-      <router-view></router-view>
+      <keep-alive>
+        <router-view></router-view>
+      </keep-alive>
+      
       <!-- <div class="nowPlayingList-wrap">
         <ul>
            <li class="nowPlayingFilm-item">
